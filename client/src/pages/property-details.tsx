@@ -87,7 +87,7 @@ const PropertyDetails = () => {
               <Box>
                 <Typography fontSize={16} fontWeight={600} mt="10px" color="#11142D">Price</Typography>
                 <Stack direction="row" alignItems="flex-end" gap={1}>
-                  <Typography fontSize={25} fontWeight={700} color="#475BE8">${propertyDetails.price}</Typography>
+                  <Typography fontSize={25} fontWeight={700} color="#475BE8">₱{propertyDetails.price}</Typography>
                   <Typography fontSize={14} color="#808191" mb={0.5}>for one day</Typography>
                 </Stack>
               </Box>
@@ -167,7 +167,8 @@ const PropertyDetails = () => {
               width="100%"
               height={306}
               style={{ borderRadius: 10, objectFit: 'cover' }}
-            />
+              alt="New York City map"
+           />
           </Stack>
 
           <Box>

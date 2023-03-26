@@ -50,7 +50,7 @@ const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => (
             <Box flex={1} display="flex" flexDirection="column" justifyContent="space-between" gap="30px">
               <Stack direction="column">
                 <Typography fontSize={22} fontWeight={600} color="#11142D">{name}</Typography>
-                <Typography fontSize={16} color="#808191">Realestate Agent</Typography>
+                <Typography fontSize={16} color="#808191">CDO Yu-Bal Admin Realestate Agent</Typography>
               </Stack>
 
               <Stack direction="column" gap="30px">
@@ -58,7 +58,7 @@ const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => (
                   <Typography fontSize={14} fontWeight={500} color="#808191">Address</Typography>
                   <Box display="flex" flexDirection="row" alignItems="center" gap="10px">
                     <Place sx={{ color: '#11142D' }} />
-                    <Typography fontSize={14} color="#11142D">4517 Washington Ave. Manchaster, Kentucky 39495</Typography>
+                    <Typography fontSize={14} color="#11142D">Harvard St. Cambridge Subdivision Iponan, Cagayan de Oro City</Typography>
                   </Box>
                 </Stack>
 
@@ -67,7 +67,7 @@ const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => (
                     <Typography fontSize={14} fontWeight={500} color="#808191">Phone Number</Typography>
                     <Box display="flex" flexDirection="row" alignItems="center" gap="10px">
                       <Phone sx={{ color: '#11142D' }} />
-                      <Typography fontSize={14} color="#11142D" noWrap>+0123 456 7890</Typography>
+                      <Typography fontSize={14} color="#11142D" noWrap>+63917 105 6435</Typography>
                     </Box>
                   </Stack>
 

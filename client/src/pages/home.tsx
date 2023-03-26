@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <Box>
-      <Typography fontSize={25} fontWeight={700} color="#11142D">
+      <Typography fontSize={25} fontWeight={700} color="#f2f2f2">
         Dashboard
       </Typography>
 

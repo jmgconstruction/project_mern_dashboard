@@ -13,7 +13,7 @@ const Agents = () => {
 
   return (
     <Box>
-      <Typography fontSize={25} fontWeight={700} color="#11142d">Agents List</Typography>
+      <Typography fontSize={25} fontWeight={700} color="#f2f2f2">Agents List</Typography>
 
       <Box
         mt="20px"
